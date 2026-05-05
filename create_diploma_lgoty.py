@@ -1,3 +1,5 @@
+from copy import deepcopy
+
 from docx import Document
 from docx.enum.section import WD_SECTION
 from docx.enum.text import WD_ALIGN_PARAGRAPH
@@ -8,6 +10,7 @@ from docx.shared import Cm, Pt
 
 
 OUTPUT = "diplomnaya_rabota_lgoty_v_prave_socialnogo_obespecheniya_rf.docx"
+ENHANCED_OUTPUT = "diplomnaya_rabota_lgoty_usilennaya_versiya.docx"
 
 
 def set_cell_text(cell, text, bold=False, size=11, align=WD_ALIGN_PARAGRAPH.CENTER):
