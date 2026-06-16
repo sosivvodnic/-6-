@@ -16,7 +16,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUTPUT = ROOT / "docs" / "parkpass-diploma-appendices.docx"
+OUTPUT = ROOT / "проект диплом" / "parkpass-diploma-appendices.docx"
 
 NS_W = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 NS_R = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
